@@ -28,6 +28,7 @@
 #include "plugins/BigClockPlugin.h"
 #include "plugins/ClockPlugin.h"
 #include "plugins/WeatherPlugin.h"
+#include "plugins/PMPlugin.h"
 #endif
 
 #include "asyncwebserver.h"
@@ -176,6 +177,7 @@ void setup()
   pluginManager.addPlugin(new ClockPlugin());
   pluginManager.addPlugin(new WeatherPlugin());
   pluginManager.addPlugin(new AnimationPlugin());
+  pluginManager.addPlugin(new PMPlugin());
 #endif
 
   pluginManager.init();
