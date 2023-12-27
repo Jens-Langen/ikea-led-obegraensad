@@ -29,8 +29,8 @@ enum indicator_typ
 
 int currentState = text25;
 
-String dps[2] = {"http://192.168.190.70:8087/getPlainValue/luftdaten.0.192_168_190_98.SDS_P2",
-                 "http://192.168.190.70:8087/getPlainValue/luftdaten.0.192_168_190_98.SDS_P1"
+String dps[2] = {"http://192.168.190.70:8087/getPlainValue/alias.0.Sensoren.PM.0.SDS_P2",
+                 "http://192.168.190.70:8087/getPlainValue/alias.0.Sensoren.PM.0.SDS_P1"
                 };
 
 void PMPlugin::setup()
